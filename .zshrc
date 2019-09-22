@@ -1,8 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+# [Mac OS] Path to your oh-my-zsh installation.
 export ZSH="/Users/hsins/.oh-my-zsh"
+
+# [Manjaro] Path to your oh-my-zsh installation.
+# export ZSH="/home/hsins/.oh-my-zsh"
 
 # Powerlevel9k Setting
 # POWERLEVEL9K_PROMPT_ON_NEWLINE=true
