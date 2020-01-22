@@ -25,7 +25,7 @@ POWERLEVEL9K_BATTERY_VERBOSE=false
 # Show ID
 DEFAULT_USER="hsins"
 
-# Using nerd Fonts 
+# Using nerd Fonts
 POWERLEVEL9K_MODE='nerdfont-complete'
 
 # Set list of themes to pick from when loading at random
@@ -75,13 +75,16 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# [Embeded Plugins]
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump)
+plugins=(git)
 
+# [Zsh Plugin: Syntax Highlighting]
+# $ sudo pacman -S zsh-syntax-highlighting
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
@@ -113,16 +116,13 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # [PATH Setting]
 
-# Anaconda
-# export PATH="/home/hsins/anaconda3/bin:$PATH"  # commented out by conda initialize
-
-# [Command to Run]
-
-# Screenfetch
+# [Screenfetch]
 screenfetch
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
+# [Anaconda]
+# Remember to run command below for preventing conda from activating the base environment
+# by default.
+# $ conda config --set auto_activate_base false
 __conda_setup="$('/home/hsins/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
@@ -134,6 +134,4 @@ else
     fi
 fi
 unset __conda_setup
-conda deactivate
 # <<< conda initialize <<<
-
