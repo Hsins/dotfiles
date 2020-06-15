@@ -1,0 +1,9 @@
+# Location: ~/.pam_environment
+
+GTK_IM_MODULE=fcitx5
+QT_IM_MODULE=fcitx5
+QT4_IM_MODULE=fcitx5
+QT5_IM_MODULE=fcitx5
+XIM=fcitx
+XIM_PROGRAM=fcitx
+XMODIFIERS=@im=fcitx5
