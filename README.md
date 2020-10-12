@@ -23,7 +23,7 @@
 ## Screenshots
 
 <div align="center">
-  <img src="https://i.imgur.com/5Xy5ccT.png" alt="Microsoft Windows Screenshot">
+  <img src="https://i.imgur.com/waduCKU.png" alt="Microsoft Windows Screenshot">
 </div>
 
 ## References
