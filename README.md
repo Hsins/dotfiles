@@ -10,7 +10,7 @@
 
 # Dotfiles
 
-⚙ _Dotfiles (plain text configuration files on systems for things like our shells, editors and many others) for Linux & macOS._
+⚙ _My personal dotfiles (plain text configuration files on systems for things like our shells, editors and many others) on Linux, macOS and Windows systems._
 
 <p>
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Others-lightgrey.svg?style=flat-square" />
