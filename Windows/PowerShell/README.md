@@ -6,7 +6,7 @@
 profile.ps1 > %USERPROFILE%\Documents\WindowsPowerShell
 ```
 
-### C Execution Policy
+### Change Execution Policy
 
 The PowerShell [execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies) is default set to `Restricted`. We should change the PowerShell execution policies with [`Set-ExecutionPolicy`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy) cmdlet.
 
