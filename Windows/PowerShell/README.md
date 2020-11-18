@@ -27,12 +27,14 @@ There are four different execution policies in PowerShell:
 Install the packages managed by [Powershell Gallery](https://www.powershellgallery.com/).
 
 ```posh
-PS> Install-Module -Name PackageManagement -Force     # PackageManagement
-PS> Install-Module -Name PowerShellGet -Force         # PowerShellGet
+# update and check current modules (PackageManagement and PowerShellGet are required.)
+PS> Update-Module
+PS> Get-Module
 
-PS> Install-Module -Name posh-git -AllowPrerelease    # posh-git
-PS> Install-Module -Name oh-my-posh -AllowPrerelease  # oh-my-posh
-PS> Install-Module -Name windows-screenfetch          # screenfetch
+# install the modules
+PS> Install-Module -Name posh-git               # posh-git
+PS> Install-Module -Name oh-my-posh             # oh-my-posh
+PS> Install-Module -Name windows-screenfetch    # screenfetch
 ```
 
 ## References
