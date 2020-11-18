@@ -10,9 +10,9 @@ profile.ps1 > %USERPROFILE%\Documents\WindowsPowerShell
 
 The PowerShell [execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies) is default set to `Restricted`. We should change the PowerShell execution policies with [`Set-ExecutionPolicy`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy) cmdlet.
 
-```powershell
-$ Set-ExecutionPolicy Unrestricted    # Change the Execution Policy
-$ Get-ExecutionPolicy                 # Get current Execution Policy
+```posh
+PS> Set-ExecutionPolicy Unrestricted    # Change the Execution Policy
+PS> Get-ExecutionPolicy                 # Get current Execution Policy
 ```
 
 There are four different execution policies in PowerShell:
@@ -27,6 +27,9 @@ There are four different execution policies in PowerShell:
 Install the packages managed by [Powershell Gallery](https://www.powershellgallery.com/).
 
 ```posh
+PS> Install-Module -Name PackageManagement -Force     # PackageManagement
+PS> Install-Module -Name PowerShellGet -Force         # PowerShellGet
+
 PS> Install-Module -Name posh-git -AllowPrerelease    # posh-git
 PS> Install-Module -Name oh-my-posh -AllowPrerelease  # oh-my-posh
 PS> Install-Module -Name windows-screenfetch          # screenfetch
