@@ -1,0 +1,30 @@
+# --------------------
+# Operating Systems
+# --------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# --------------------
+# Editors
+# --------------------
+
+# TextMate
+.tmproj
+
+# Visual Studio Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# --------------------
+# IDEs
+# --------------------
+
+# Intellij Idea
+.idea/

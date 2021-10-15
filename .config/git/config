@@ -1,0 +1,110 @@
+# --------------------
+# User Config
+# --------------------
+
+[user]
+  name = H.-H. Peng
+  email = hsinspeng@gmail.com
+  # signingkey = 9E9DD37D0AE1558E
+
+[github]
+	user = Hsins
+  # token = 
+
+# --------------------
+# Core Config
+# --------------------
+
+[core]
+  editer = nvim
+  ignorecase = false
+  autocrlf = input
+  safecrlf = true
+  excludesfile = ~/.config/git/gitignore-global
+  pager = less -FRSX
+
+# --------------------
+# Color Config
+# --------------------
+
+[color]
+  ui = auto
+
+# --------------------
+# Operation Config
+# --------------------
+
+[init]
+	defaultBranch = main
+  templatedir = ~/.config/git/git-init-template
+
+[commit]
+	gpgsign = true
+	template = ~/.config/git/git-commit-template
+
+[pull]
+  rebase = false
+
+# [push]
+#   default = upstream
+#   rebase = true
+#   followTags = true
+
+[branch]
+	autosetuprebase = always
+
+# [merge]
+# 	tool = vimdiff
+
+# [diff]
+# 	tool = vimdiff
+
+# --------------------
+# Alias
+# --------------------
+
+[alias]
+  # abbreviation
+  br = branch
+  cm = commit
+  co = checkout
+  st = status
+  # alias
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+# --------------------
+# Different Configs
+# --------------------
+
+[includeIf "gitdir:~/WorkSpace/work"]
+  path = ~/WorkSpace/work/.gitconfig
+
+# --------------------
+# Credential Configs
+# --------------------
+
+# [gpg]
+#   program = C:/ProgramData/scoop/apps/gpg4win/current/GnuPG/bin/gpg.exe
+
+# [credential "helperselector"]
+#   selected = manager-core
+
+# [credential "https://gitlab.com"]
+#   provider = generic
+
+
+# file:C:/Program Files/Git/etc/gitconfig diff.astextplain.textconv=astextplain
+# file:C:/Program Files/Git/etc/gitconfig filter.lfs.clean=git-lfs clean -- %f
+# file:C:/Program Files/Git/etc/gitconfig filter.lfs.smudge=git-lfs smudge -- %f
+# file:C:/Program Files/Git/etc/gitconfig filter.lfs.process=git-lfs filter-process
+# file:C:/Program Files/Git/etc/gitconfig filter.lfs.required=true
+# file:C:/Program Files/Git/etc/gitconfig http.sslbackend=openssl
+# file:C:/Program Files/Git/etc/gitconfig http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+# file:C:/Program Files/Git/etc/gitconfig core.autocrlf=true
+# file:C:/Program Files/Git/etc/gitconfig core.fscache=true
+# file:C:/Program Files/Git/etc/gitconfig core.symlinks=false
+# file:C:/Program Files/Git/etc/gitconfig core.editor="C:\\Program Files\\Microsoft VS Code\\Code.exe" --wait
+# file:C:/Program Files/Git/etc/gitconfig pull.rebase=false
+# file:C:/Program Files/Git/etc/gitconfig credential.helper=manager-core
+# file:C:/Program Files/Git/etc/gitconfig credential.https://dev.azure.com.usehttppath=true
+# file:C:/Program Files/Git/etc/gitconfig init.defaultbranch=main

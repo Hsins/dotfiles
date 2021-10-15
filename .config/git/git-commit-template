@@ -1,0 +1,64 @@
+# 🎨 Improve structure / format of the code
+# ☸ Working with Kubernetes
+# ⚡ Improve performance
+# 🔥 Remove code or files
+# 🐛 Fix a bug
+# 🚑 Critical hotfix
+# ✨ Introduce new features
+# 📝 Write docs
+# 🚀 Deploy stuff
+# 💄 Update the UI and style files
+# 🎉 Initial commit
+# ✅ Add tests
+# 🔒 Fix security issues
+# 🍎 Fix something on macOS
+# 🐧 Fix something on Linux
+# 🏁 Fix something on Windows
+# 🔖 Release / Version tags
+# 🚨 Remove linter warnings
+# 🚧 Work in progress
+# 💚 Fix CI Build
+# ⬇ Downgrade dependencies
+# ⬆ Upgrade dependencies
+# 👷 Add CI build system
+# 📈 Add analytics or tracking code
+# 🔨 Heavy refactoring
+# ➖ Remove a dependency
+# 🐳 Change Docker stuff
+# ➕ Add a dependency
+# 🔧 Change configuration files
+# 🌐 Internationalization and localization
+# :pencil2: Fix typo # renders better on github than ✏
+# 💩 Write bad code that needs to be improved
+# 📦 Update compiled files or packages
+# ⏪ Revert changes
+# 🔀 Merge branches
+# 👽 Update code due to external dependencies
+# 🚚 Move or rename files
+# 📄 Add or update license
+# 💥 Introduce breaking changes
+# 🍱 Add or update assets
+# 👌 Update code due to review comments
+# ♿ Improve accessibility
+# 💡 Document source code
+# 🍻 Write code drunkenly
+# 💬 Update text or literals
+# 🗃 Perform database related changes
+# 🔊 Add logging
+# 🔇 Remove logs
+# 👥 Add contributors
+# 🚸 Improve user experience / usability
+# 🏗 Making architectural changes
+# 📱 Working on responsive design
+# 🤡 Mocking things
+# 🥚 Adding an easter egg
+# 🙈 Adding or updating a .gitignore file
+# 📸 Adding or updating snapshots
+# ⚗ Experimenting new things
+# 🔍 Improving SEO
+# 🏷 Adding or updating types
+# 🌱 Adding or updating seed files
+# 🚩 Adding, updating, or removing feature flags
+# 🥅 Catching errors
+# 💫 Adding or updating animations and transitions
+# 🗑 Deprecating code that needs to be cleaned up.
